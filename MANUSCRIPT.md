@@ -131,8 +131,14 @@ total generations of continued selection.
 
 ### 3.2 Multi-trait index selection extracts the most gain from the residual background
 
-*(Table 3, Figure 2)* Starting from the major-locus-fixed population, cumulative
-genetic gain after `12` generations differed significantly between
+*(Table 3, Figure 2)* Figure 2 is an eight-panel composite built entirely from the
+replicated output: (A) cumulative gain by strategy; (B) paired per-replicate
+trajectories across the three arms; (C, D) paired-difference distributions
+(B − A, B − C); (E) genomic-prediction accuracy distribution; (F) generation-to-fixation
+versus residual background variance; (G) prediction accuracy versus realized
+genomic-selection gain; (H) relative advantage of Arm B with 95% confidence
+intervals from the paired t-tests. Starting from the major-locus-fixed population,
+cumulative genetic gain after `12` generations differed significantly between
 strategies. Multi-trait index selection (Arm B) achieved `4.063` ± `0.345`,
 significantly higher than phenotypic mass selection (Arm A: `3.801` ±
 `0.308`; paired t-test, `t(19) = 10.10, p < 0.001`) and higher still than genomic selection

@@ -94,7 +94,8 @@ with a statistically replicated number attached.
 install.packages(c("AlphaSimR", "AGHmatrix", "sommer", "ggplot2", "dplyr", "patchwork"))
 setwd("scripts")
 source("01_replicated_pipeline.R")  # runs 20 independent replicates; writes outputs/*_replicated_*.csv
-source("02_nature_figures.R")       # writes figures/Figure1_*, figures/Figure2_*
+source("02_nature_figures.R")       # writes figures/Figure1_* (2-panel: fixation, VA)
+source("04_figure2_panel.R")        # writes figures/Figure2_* (8-panel Phase-2 composite)
 source("03_tables.R")               # writes outputs/tables/Table1-3*.csv, prints MANUSCRIPT.md values
 ```
 
