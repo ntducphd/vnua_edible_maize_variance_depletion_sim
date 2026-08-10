@@ -1,0 +1,4 @@
+"Strategy","Cumulative gain, mean +/- SD","Relative to Arm A"
+"A. Phenotypic mass selection","3.801 +/- 0.308","1.00x"
+"B. Multi-trait index selection","4.063 +/- 0.345","1.07x"
+"C. Genomic selection (GBLUP)","3.046 +/- 0.276","0.80x"

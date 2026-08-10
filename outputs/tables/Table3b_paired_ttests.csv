@@ -1,0 +1,4 @@
+"Comparison","Mean difference","t statistic","df","p value"
+"B vs A (multi-trait index vs phenotypic mass)",0.262303523195836,10.1027406578599,19,"< 0.001"
+"B vs C (multi-trait index vs genomic selection)",1.0169493407906,28.291122662227,19,"< 0.001"
+"A vs C (phenotypic mass vs genomic selection)",0.754645817594762,21.9620037349455,19,"< 0.001"
