@@ -9,14 +9,17 @@ dir.create("../figures", showWarnings = FALSE)
 okabe_ito <- c(major = "#D55E00", background = "#0072B2",
                A = "#0072B2", B = "#009E73", C = "#D55E00")
 
-theme_nature <- theme_classic(base_size = 11, base_family = "sans") +
+theme_nature <- theme_classic(base_size = 17, base_family = "sans") +
   theme(
-    axis.line = element_line(linewidth = 0.4, colour = "black"),
-    axis.ticks = element_line(linewidth = 0.4, colour = "black"),
+    axis.line = element_line(linewidth = 0.5, colour = "black"),
+    axis.ticks = element_line(linewidth = 0.5, colour = "black"),
+    axis.title = element_text(size = 17),
+    axis.text = element_text(size = 15, colour = "black"),
     legend.position = "bottom",
     legend.title = element_blank(),
+    legend.text = element_text(size = 15),
     strip.background = element_blank(),
-    strip.text = element_text(face = "bold", hjust = 0),
+    strip.text = element_text(face = "bold", size = 15, hjust = 0),
     plot.title = element_blank()
   )
 
@@ -60,15 +63,15 @@ figB <- ggplot(p1_summary, aes(x = generation)) +
                                  "Polygenic background" = unname(okabe_ito["background"])), guide = "none") +
   scale_x_continuous(breaks = seq(0, max(p1_summary$generation), 3)) +
   labs(x = "Selection generation", y = expression("Additive genetic variance ("*V[A]*")")) +
-  theme_nature + theme(legend.text = element_text(size = 8))
+  theme_nature + theme(legend.text = element_text(size = 14))
 
 library(patchwork)
 fig1 <- (figA + labs(tag = "A")) + (figB + labs(tag = "B")) +
   plot_layout(ncol = 2) &
-  theme(plot.tag = element_text(face = "bold", size = 13))
+  theme(plot.tag = element_text(face = "bold", size = 20))
 
-ggsave("../figures/Figure1_major_locus_fixation.png", fig1, width = 10, height = 4.3, dpi = 300)
-ggsave("../figures/Figure1_major_locus_fixation.pdf", fig1, width = 10, height = 4.3)
+ggsave("../figures/Figure1_major_locus_fixation.png", fig1, width = 12, height = 5.6, dpi = 320)
+ggsave("../figures/Figure1_major_locus_fixation.pdf", fig1, width = 12, height = 5.6)
 
 ## ---------------- Figure 2: Phase 2 (three strategies) ----------------
 p2 <- read.csv("../outputs/phase2_replicated_summary.csv")

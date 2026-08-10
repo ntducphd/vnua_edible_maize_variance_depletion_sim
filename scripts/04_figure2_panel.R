@@ -9,13 +9,15 @@ dir.create("../figures", showWarnings = FALSE)
 
 okabe_ito <- c(A = "#0072B2", B = "#009E73", C = "#D55E00", diff = "#CC79A7", acc = "#56B4E9")
 
-theme_nature <- theme_classic(base_size = 9, base_family = "sans") +
+theme_nature <- theme_classic(base_size = 15, base_family = "sans") +
   theme(
-    axis.line = element_line(linewidth = 0.35, colour = "black"),
-    axis.ticks = element_line(linewidth = 0.35, colour = "black"),
+    axis.line = element_line(linewidth = 0.4, colour = "black"),
+    axis.ticks = element_line(linewidth = 0.4, colour = "black"),
+    axis.title = element_text(size = 15),
+    axis.text = element_text(size = 13, colour = "black"),
     legend.position = "none",
     plot.title = element_blank(),
-    plot.margin = margin(4, 8, 4, 4)
+    plot.margin = margin(6, 10, 6, 6)
   )
 
 p1 <- read.csv("../outputs/phase1_replicated_log.csv")
@@ -118,10 +120,10 @@ fig2 <- (panelA + labs(tag = "A")) + (panelB + labs(tag = "B")) +
         (panelE + labs(tag = "E")) + (panelF + labs(tag = "F")) +
         (panelG + labs(tag = "G")) + (panelH + labs(tag = "H")) +
   plot_layout(ncol = 2, nrow = 4) &
-  theme(plot.tag = element_text(face = "bold", size = 10))
+  theme(plot.tag = element_text(face = "bold", size = 18))
 
-ggsave("../figures/Figure2_three_strategies_comparison.png", fig2, width = 8.5, height = 13, dpi = 320)
-ggsave("../figures/Figure2_three_strategies_comparison.pdf", fig2, width = 8.5, height = 13)
+ggsave("../figures/Figure2_three_strategies_comparison.png", fig2, width = 10, height = 15.5, dpi = 320)
+ggsave("../figures/Figure2_three_strategies_comparison.pdf", fig2, width = 10, height = 15.5)
 
 cat("8-panel Figure 2 written to simulation/figures/\n")
 cat(sprintf("B-A CI (pct pts): [%.2f, %.2f]\n", rel$lo[1], rel$hi[1]))
