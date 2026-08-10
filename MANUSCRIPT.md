@@ -214,6 +214,7 @@ manuscript from the committed scripts.
   improvement. *Molecular Plant* 18: 619-638.
 - Luo J. et al. (2024). A metabolic roadmap of waxy corn flavor. *Molecular Plant* 17:
   1883-1898.
-- Nguyen T.D. & Pham Q.T. (2026). Chọn giống lấy kiểu hình làm trung tâm trong kỷ
-  nguyên gen: bài học từ ngô thực phẩm. *Vietnam Journal of Agricultural Sciences* (in
-  review).
+- Nguyen T.D. & Pham Q.T. (2026). Tổng quan logic chọn giống lấy kiểu hình làm trung
+  tâm trong kỷ nguyên hệ gen: bài học từ ngô thực phẩm ("A Review of Phenotype-Centered
+  Breeding Logic in the Genomic Era: Lessons from Edible Maize"). *Vietnam Journal of
+  Agricultural Sciences* (in review).

@@ -1,7 +1,9 @@
 # Simulation study: major-gene-fixation variance depletion in edible maize breeding
 
-Companion simulation study for the review "Chọn giống lấy kiểu hình làm trung tâm trong
-kỷ nguyên gen: bài học từ ngô thực phẩm" (*Vietnam Journal of Agricultural Sciences*).
+Companion simulation study for the review "Tổng quan logic chọn giống lấy kiểu hình làm
+trung tâm trong kỷ nguyên hệ gen: bài học từ ngô thực phẩm" / "A Review of
+Phenotype-Centered Breeding Logic in the Genomic Era: Lessons from Edible Maize"
+(*Vietnam Journal of Agricultural Sciences*).
 It turns the review's central quantitative-genetics claim — that once a large-effect
 quality locus (sh2-like) is fixed in a commercial market class, the remaining additive
 genetic variance sits entirely in the polygenic background, and different post-fixation
@@ -124,6 +126,7 @@ consistent with the numbers above.
 ## Citation
 
 Nguyen T.D., Pham Q.T. (2026). Simulation study: major-gene-fixation variance depletion
-in edible maize breeding — companion to "Chọn giống lấy kiểu hình làm trung tâm trong
-kỷ nguyên gen: bài học từ ngô thực phẩm." *Vietnam Journal of Agricultural Sciences* (in
-review).
+in edible maize breeding — companion to "Tổng quan logic chọn giống lấy kiểu hình làm
+trung tâm trong kỷ nguyên hệ gen: bài học từ ngô thực phẩm" ("A Review of
+Phenotype-Centered Breeding Logic in the Genomic Era: Lessons from Edible Maize").
+*Vietnam Journal of Agricultural Sciences* (in review).
