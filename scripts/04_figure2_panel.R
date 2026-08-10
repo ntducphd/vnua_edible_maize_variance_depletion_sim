@@ -117,11 +117,11 @@ fig2 <- (panelA + labs(tag = "A")) + (panelB + labs(tag = "B")) +
         (panelC + labs(tag = "C")) + (panelD + labs(tag = "D")) +
         (panelE + labs(tag = "E")) + (panelF + labs(tag = "F")) +
         (panelG + labs(tag = "G")) + (panelH + labs(tag = "H")) +
-  plot_layout(ncol = 4, nrow = 2) &
+  plot_layout(ncol = 2, nrow = 4) &
   theme(plot.tag = element_text(face = "bold", size = 10))
 
-ggsave("../figures/Figure2_three_strategies_comparison.png", fig2, width = 11.5, height = 6.2, dpi = 320)
-ggsave("../figures/Figure2_three_strategies_comparison.pdf", fig2, width = 11.5, height = 6.2)
+ggsave("../figures/Figure2_three_strategies_comparison.png", fig2, width = 8.5, height = 13, dpi = 320)
+ggsave("../figures/Figure2_three_strategies_comparison.pdf", fig2, width = 8.5, height = 13)
 
 cat("8-panel Figure 2 written to simulation/figures/\n")
 cat(sprintf("B-A CI (pct pts): [%.2f, %.2f]\n", rel$lo[1], rel$hi[1]))
